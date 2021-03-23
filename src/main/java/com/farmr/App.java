@@ -8,13 +8,16 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import lombok.extern.slf4j.Slf4j;
 
+import java.io.File;
+import java.net.URL;
+
 @Slf4j
 public class App extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource(System.getProperty("user.dir") + "/src/main/resources/UI.fxml"));
+        URL url = new File("src/main/resources/UI.fxml").toURI().toURL();
+        Parent root = FXMLLoader.load(url);
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
