@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://i.imgur.com/k1gIHO5.png" alt="gold farming logo" />
+    <img height="280" width="180" src="https://i.imgur.com/k1gIHO5.png" alt="gold farming logo" />
 </p>
 
 # Farmr
