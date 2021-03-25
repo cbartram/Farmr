@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>farmr-parent</artifactId>
+        <groupId>com.farmr</groupId>
+        <version>0.0.1</version>
+    </parent>
+
+    <artifactId>farmr-client</artifactId>
+    <version>0.0.1</version>
+    <name>Farmr</name>
+    <description>The Farmr RuneScape gold farming application</description>
+
+    <properties>
+        <java.fx.version>15.0.1</java.fx.version>
+        <figlet.version>0.0.8</figlet.version>
+        <farmr.account.creation.version>0.0.1</farmr.account.creation.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>${java.fx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.lalyos</groupId>
+            <artifactId>jfiglet</artifactId>
+            <version>${figlet.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.farmr</groupId>
+            <artifactId>farmr-account-creation</artifactId>
+            <version>${farmr.account.creation.version}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+</project>

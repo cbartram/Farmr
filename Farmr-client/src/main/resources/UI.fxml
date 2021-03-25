@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="326.0" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.farmr.controller.MainController">
+   <children>
+       <Button fx:id="startButton" layoutX="138.0" layoutY="279.0" onAction="#handleButtonAction" text="Start" />
+       <Label fx:id="label" layoutX="63.0" layoutY="60.0" minHeight="16" minWidth="69" text="Old School RuneScape Gold Farmer" />
+       <Label fx:id="label1" layoutX="143.0" layoutY="43.0" minHeight="16" minWidth="35.0" prefHeight="17.0" prefWidth="35.0" text="Farmr" textAlignment="CENTER" />
+       <Label fx:id="label2" layoutX="14.0" layoutY="141.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="114.0" text="# of Bots" />
+       <Label fx:id="label21" layoutX="14.0" layoutY="209.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="114.0" text="Script" />
+      <ComboBox fx:id="script" layoutX="143.0" layoutY="204.0" prefWidth="150.0" />
+      <ComboBox fx:id="numBots" layoutX="143.0" layoutY="136.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

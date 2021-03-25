@@ -36,6 +36,12 @@ and build the jar file locally using [Maven](https://maven.apache.org).
 $ mvn clean package
 ```
 
+Install Chrome Driver
+
+```shell
+brew tap homebrew/cask && brew --cask chromedriver
+```
+
 ### Running
 
 TODO
