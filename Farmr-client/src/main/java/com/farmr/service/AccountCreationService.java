@@ -1,6 +1,6 @@
-package com.farmr.account.service;
+package com.farmr.service;
 
-import com.farmr.account.model.RuneScapeCredentials;
+import com.farmr.model.RuneScapeCredentials;
 import com.google.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.By;
@@ -56,7 +56,6 @@ public class AccountCreationService {
 			log.info(firstResult.getAttribute("textContent"));
 		} finally {
 			driver.quit();
-//			VA is (54.162.109.203) (florida is  142.196.143.218)
 		}
 
 		return credentials;

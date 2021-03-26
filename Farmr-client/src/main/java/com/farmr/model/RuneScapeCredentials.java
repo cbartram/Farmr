@@ -1,4 +1,4 @@
-package com.farmr.account.model;
+package com.farmr.model;
 
 import lombok.Data;
 

@@ -16,7 +16,7 @@
     <properties>
         <java.fx.version>15.0.1</java.fx.version>
         <figlet.version>0.0.8</figlet.version>
-        <farmr.account.creation.version>0.0.1</farmr.account.creation.version>
+        <selenium.version>3.141.59</selenium.version>
     </properties>
 
     <dependencies>
@@ -31,10 +31,9 @@
             <version>${figlet.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.farmr</groupId>
-            <artifactId>farmr-account-creation</artifactId>
-            <version>${farmr.account.creation.version}</version>
-            <scope>compile</scope>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
         </dependency>
     </dependencies>
 </project>

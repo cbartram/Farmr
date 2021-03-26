@@ -38,7 +38,6 @@
   </repositories>
 
   <modules>
-    <module>Farmr-Account-Creation</module>
     <module>Farmr-client</module>
   </modules>
 

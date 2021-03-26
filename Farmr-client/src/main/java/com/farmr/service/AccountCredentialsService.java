@@ -1,11 +1,12 @@
-package com.farmr.account.service;
+package com.farmr.service;
 
-import com.farmr.account.model.RuneScapeCredentials;
-import com.farmr.account.util.Util;
+import com.farmr.model.RuneScapeCredentials;
+import com.farmr.util.Util;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
 
 public class AccountCredentialsService {
 	private static final String LOWER = "abcdefghijklmnopqrstuvwxyz";

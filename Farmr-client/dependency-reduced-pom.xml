@@ -39,7 +39,7 @@
     </dependency>
   </dependencies>
   <properties>
-    <farmr.account.creation.version>0.0.1</farmr.account.creation.version>
+    <selenium.version>3.141.59</selenium.version>
     <java.fx.version>15.0.1</java.fx.version>
     <figlet.version>0.0.8</figlet.version>
   </properties>
